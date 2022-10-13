@@ -1,2 +1,2 @@
 # Dice-Roll
-Practice project. A game for two players, whoever gets the higher number on the dice wins.
+A game for two players, whoever gets the higher number on the dice wins.
