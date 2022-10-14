@@ -45,6 +45,8 @@ function throwDiceClick() {
         document.querySelector(".headingTitle").textContent = "Player 2 Wins🚩";
 
     }
+
+    document.querySelector(".headingTitle").classList.add("titleChangeOnDiceThrow");
 }
 
 function newGameClick() {
@@ -56,4 +58,6 @@ function newGameClick() {
     document.querySelector("#dice .fa1").classList.add("fa-dice-one");
     document.querySelector("#dice .fa2").classList.add("fa-dice-one");
     document.querySelector(".headingTitle").textContent = "Dice Roll";
+
+    document.querySelector(".headingTitle").classList.remove("titleChangeOnDiceThrow");
 }
