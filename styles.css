@@ -1,5 +1,5 @@
 /*Global Elements*/
-body{
+body {
     background-color: #CFFF8D;
     height: 500px;
     text-align: center;
@@ -8,29 +8,34 @@ body{
 }
 
 /*Heading*/
-#heading{
+#heading {
     line-height: 1;
 }
-.headingTitle{
+
+.headingTitle {
     font-size: 150px;
     font-weight: 700;
     margin-top: 0;
 }
-.headingText{
+
+.headingText {
     margin-bottom: 40px;
 }
 
 /*Dice*/
-.fa1, .fa2{
+.fa1,
+.fa2 {
     font-size: 200px;
     margin: auto 125px;
 }
-#dice h2{
+
+#dice h2 {
     display: inline-block;
-    padding: 20px 155px;
+    margin: 20px 155px;
 }
 
-.throw, .newGame{
+.throw,
+.newGame {
     background-color: #80d760;
     font-size: 30px;
     margin-top: 35px;
@@ -40,11 +45,38 @@ body{
     border-radius: 10px;
     transition: transform 250ms;
 }
-.newGame{
+
+.newGame {
     margin-left: 20px;
 }
 
 /*On Hover*/
-.throw:hover, .newGame:hover{
+.throw:hover,
+.newGame:hover {
     transform: translateY(-3px);
+}
+
+/*For Phone*/
+@media (max-width: 900px) {
+
+    /*Heading*/
+    .headingTitle{
+        font-size: 100px;
+        margin-top: 50px;
+    }
+    .titleChangeOnDiceThrow{
+        font-size: 70px;
+        margin-bottom: 44px;
+    }
+
+    /*Dice*/
+    .fa1, .fa2 {
+        font-size: 100px;
+        margin: auto 110px;
+    }
+    #dice h2{
+        margin: 20px 110px;
+        
+    }
+
 }
