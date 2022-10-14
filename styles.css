@@ -56,7 +56,10 @@ body {
     transform: translateY(-3px);
 }
 
+
 /*For Phone*/
+
+
 @media (max-width: 900px) {
 
     /*Heading*/
@@ -76,7 +79,26 @@ body {
     }
     #dice h2{
         margin: 20px 110px;
-        
     }
 
+}
+
+@media (max-width: 629px) {
+
+    /*Heading*/
+    .headingTitle{
+        font-size: 80px;
+    }
+    .titleChangeOnDiceThrow{
+        font-size: 50px;
+    }
+    /*Dice*/
+    .fa1,
+    .fa2 {
+        margin: auto 80px;
+    }
+
+    #dice h2 {
+        margin: 20px 80px;
+    }
 }
